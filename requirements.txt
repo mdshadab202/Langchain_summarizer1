@@ -1,0 +1,11 @@
+streamlit
+langchain
+langchain-community
+langchain-groq
+validators
+youtube-transcript-api
+unstructured
+tqdm
+requests
+python-dotenv
+validator

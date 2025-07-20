@@ -1,0 +1,8 @@
+/myvenv
+\myvenv
+\venv
+/venv
+\.env
+/.env
+\testenv
+/testenv
