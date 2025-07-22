@@ -1,4 +1,4 @@
-# text_sum/app.py            
+#app.py            
 import validators
 import streamlit as st
 from langchain.prompts import PromptTemplate
@@ -57,7 +57,7 @@ if groq_api_key:
 
                     # ✅ Summarization Chain
                     chain = load_summarize_chain(llm, chain_type="stuff", prompt=prompt)
-                    output = chain.run(documents)
+                    output = chain.invoke(documents)
 
                     st.success("Summary generated successfully!")
                     st.write(output)
